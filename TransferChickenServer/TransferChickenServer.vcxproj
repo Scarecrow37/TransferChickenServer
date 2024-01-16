@@ -154,19 +154,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Network\TCPClient.cpp" />
-    <ClCompile Include="Network\TCPServer.cpp" />
-    <ClCompile Include="Network\TCPSocket.cpp" />
     <ClCompile Include="TransferChickenServer.cpp" />
-    <ClCompile Include="Utility\Exception\Exception.cpp" />
-    <ClCompile Include="Utility\FileSystem\FileSystem.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Network\TCPClient.h" />
-    <ClInclude Include="Network\TCPServer.h" />
-    <ClInclude Include="Network\TCPSocket.h" />
-    <ClInclude Include="Utility\Exception\Exception.h" />
-    <ClInclude Include="Utility\FileSystem\FileSystem.h" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resource\chicken.jpg" />
