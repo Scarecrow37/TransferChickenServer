@@ -12,7 +12,7 @@ int main()
     const errno_t _ = fopen_s(&ChickenImage, "./Resource/chicken.jpg", "rb");
     char Buffer[100000] = {};
     size_t FileSize = fread_s(Buffer, sizeof(Buffer), sizeof(char), sizeof(Buffer), ChickenImage);
-    
+
     WSADATA WsaData;
     WSAStartup(MAKEWORD(2, 2), &WsaData);
 
@@ -31,9 +31,9 @@ int main()
 
     send(ClientSocket, Buffer, static_cast<int>(FileSize), 0);
 
-    
+
     fclose(ChickenImage);
     WSACleanup();
-    
+
     return 0;
 }
