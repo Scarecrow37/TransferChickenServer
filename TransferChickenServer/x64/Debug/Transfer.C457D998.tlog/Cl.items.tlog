@@ -2,3 +2,5 @@ C:\Work\CPP\TransferChickenServer\TransferChickenServer\Network\TCPClient.cpp;C:
 C:\Work\CPP\TransferChickenServer\TransferChickenServer\Network\TCPServer.cpp;C:\Work\CPP\TransferChickenServer\TransferChickenServer\x64\Debug\TCPServer.obj
 C:\Work\CPP\TransferChickenServer\TransferChickenServer\Network\TCPSocket.cpp;C:\Work\CPP\TransferChickenServer\TransferChickenServer\x64\Debug\TCPSocket.obj
 C:\Work\CPP\TransferChickenServer\TransferChickenServer\TransferChickenServer.cpp;C:\Work\CPP\TransferChickenServer\TransferChickenServer\x64\Debug\TransferChickenServer.obj
+C:\Work\CPP\TransferChickenServer\TransferChickenServer\Utility\Exception\Exception.cpp;C:\Work\CPP\TransferChickenServer\TransferChickenServer\x64\Debug\Exception.obj
+C:\Work\CPP\TransferChickenServer\TransferChickenServer\Utility\FileSystem\FileSystem.cpp;C:\Work\CPP\TransferChickenServer\TransferChickenServer\x64\Debug\FileSystem.obj
