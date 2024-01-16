@@ -167,6 +167,9 @@
   <ItemGroup>
     <Folder Include="Utility\FileSystem\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resource\chicken.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

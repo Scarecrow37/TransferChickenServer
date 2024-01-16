@@ -6,8 +6,6 @@
 
 int main()
 {
-    
-    
     TcpServer* Server = new TcpServer();
     Server->Initialize();
     Server->Bind(8080);
@@ -15,7 +13,7 @@ int main()
     const TcpSocket* Socket = Server->Accept();
 
 
-    FILE* Image = fopen("C:/Work/Resource/chicken.jpg", "rb");
+    FILE* Image = fopen("/Resource/chicken.jpg", "rb");
     char Buffer[100000] = {};
     int BufferSize = sizeof(Buffer);
     int ReadSize = fread(Buffer, sizeof(char), BufferSize, Image);
